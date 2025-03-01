@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste Avaliação Física - Método das 7 Dobras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Avaliação Física - Método das 7 Dobras (Protocolo de Pollock)</h1>
+        <form id="dobras-form">
+            <div class="input-group">
+                <label for="tricipital">Dobras Tricipital (mm):</label>
+                <input type="number" id="tricipital" required>
+            </div>
+            <div class="input-group">
+                <label for="subescapular">Dobras Subescapular (mm):</label>
+                <input type="number" id="subescapular" required>
+            </div>
+            <div class="input-group">
+                <label for="peitoral">Dobras Peitoral (mm):</label>
+                <input type="number" id="peitoral" required>
+            </div>
+            <div class="input-group">
+                <label for="axilar">Dobras Axilar (mm):</label>
+                <input type="number" id="axilar" required>
+            </div>
+            <div class="input-group">
+                <label for="suprailiaca">Dobras Suprailiaca (mm):</label>
+                <input type="number" id="suprailiaca" required>
+            </div>
+            <div class="input-group">
+                <label for="abdominal">Dobras Abdominal (mm):</label>
+                <input type="number" id="abdominal" required>
+            </div>
+            <div class="input-group">
+                <label for="coxa">Dobras Coxa (mm):</label>
+                <input type="number" id="coxa" required>
+            </div>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultado" class="resultado">
+            <h2>Resultado</h2>
+            <p id="gordura-corporal">Gordura corporal: </p>
+            <p id="status">Status: </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
